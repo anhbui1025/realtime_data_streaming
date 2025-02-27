@@ -34,4 +34,10 @@ Follow these instructions to get a local copy of the project up and running:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/anhbui1025/realtime_data_streaming.git
+2. **Navigate to the project directory:**
+   ```bash
+   cd realtime_data_streaming
+3. **Run the services to start:**
+   ```bash
+   docker compose up -d
