@@ -2,6 +2,12 @@
 
 This project is a streaming data pipeline that crawls data from a random user API, processes it in real time, and stores the results in a Cassandra database.
 
+## Table of Contents
+
+- [System Architecture](#system-architecture)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+
 ## System Architecture
 
 ![System Architecture Diagram](Architecture.png)
