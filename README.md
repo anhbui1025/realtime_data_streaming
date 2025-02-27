@@ -1,6 +1,6 @@
 # Realtime Data Streaming | End-to-End Data Engineering Project
 
-A short summary of the project goes here. This section should provide a brief overview of what the project does and its key purpose.
+This project is a streaming data pipeline that crawls data from a random user API, processes it in real time, and stores the results in a Cassandra database.
 
 ## System Architecture
 
@@ -15,9 +15,14 @@ Describe your system architecture here. You might include:
 ## Built With
 
 List the main tools, frameworks, or libraries used in your project:
-- **Docker Compose** – For container orchestration
-- **[Tool/Framework Name]** – Brief description or link
-- **[Tool/Framework Name]** – Brief description or link
+
+- **Apache Airflow:** Setting up a data pipeline with Apache Airflow.
+- **Apache Kafka:** Real-time data streaming with Apache Kafka.
+- **Apache Zookeeper:** Distributed synchronization with Apache Zookeeper.
+- **Apache Spark:** Data processing techniques with Apache Spark.
+- **Cassandra & PostgreSQL:** Data storage solutions using Cassandra and PostgreSQL.
+- **Docker:** Containerizing your entire data engineering setup with Docker.
+
 
 
 ## Getting Started
