@@ -12,11 +12,8 @@ This project is a streaming data pipeline that crawls data from a random user AP
 
 ![System Architecture Diagram](Architecture.png)
 
-Describe your system architecture here. You might include:
-- An overview of the main components
-- How data flows through the system
-- Diagrams or flowcharts (if available)
-- Any architectural patterns used
+Our project features a multi-layered streaming data pipeline designed for seamless data flow and robust performance. It all begins with the randomuser.me API, which provides the random user data that kickstarts the process. Apache Airflow then takes charge of orchestrating the entire pipeline, ensuring data is efficiently collected and temporarily stored in a PostgreSQL database. From there, Apache Kafka—supported by Apache Zookeeper—transfers the data to our processing engine, while a dedicated Control Center and Schema Registry keep a close watch on stream integrity and schema consistency. Finally, Apache Spark processes the data using its master-worker model, and the refined results are stored in Cassandra, offering a scalable solution for high-volume data storage.
+
 
 ## Built With
 
