@@ -4,6 +4,8 @@ A short summary of the project goes here. This section should provide a brief ov
 
 ## System Architecture
 
+![System Architecture Diagram](Architecture.png)
+
 Describe your system architecture here. You might include:
 - An overview of the main components
 - How data flows through the system
